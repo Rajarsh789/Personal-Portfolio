@@ -1,0 +1,55 @@
+<div id="topbar" class="d-none d-lg-flex p-4 align-items-center fixed-top">
+    <div class="container d-flex">
+        <div class="contact-info mr-auto pt-2">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;
+            <a class="h6">rajarsh.gangwar.96@gmail.com</a>
+        </div>
+        <div class="contact-info ml-auto pt-2 h6">
+            <i class="fa fa-phone" aria-hidden="true"></i> +91 7380825958 &nbsp;
+            <a href="https://www.linkedin.com/in/rajarsh-gangwar-8a8326148/"><i class="fa fa-linkedin-square"
+          aria-hidden="true"></i></a> &nbsp;
+            <a href="https://twitter.com/@RajarshG"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+        </div>
+        <div class="social-links">
+            <i style="background-color: aliceblue;" styclass="icofont-twitter"></i>
+        </div>&nbsp;
+        <!-- <div class="pt-2 pr-2 pl-2 text-warning h6">{{this.addProvider.userName}}</div>s -->
+        <!-- <div *ngIf="!this.addProvider.isUserLoggedIn">
+            <button type="button" class="btn btn-outline-primary" routerLink="login">Sign In</button>
+        </div>
+        <div *ngIf="this.addProvider.isUserLoggedIn">
+            <button type="button" class="btn btn-outline-primary" (click)="logout()">logout</button>
+        </div> -->
+    </div>
+</div>
+
+
+<header id="header" class="fixed-top">
+    <div class="container p-0">
+        <nav class="navbar navbar-expand-lg navbar-light pt-0 pb-0 ">
+            <h1 class="navbar-brand logo">Rajarsh <span>Gangwar</span></h1>
+            <button  class="navbar-toggler" type="button" (click)="toggleNavbar()">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse show" id="navbarSupportedContent"  [ngClass]="{ 'show': navbarOpen }">
+                <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item " (click)="toggleNavbar()" routerLinkActive="active">
+                        <a class="nav-link " routerLink="home" >HOME</a>
+                    </li>
+                    <li class="nav-item" (click)="toggleNavbar()" routerLinkActive="active">
+                        <a class="nav-link " routerLink="/about" >ABOUT</a>
+                    </li>
+                    <li class="nav-item " (click)="toggleNavbar()" routerLinkActive="active"> 
+                        <a class="nav-link " routerLink="projects" >PROJECTS</a>
+                    </li>
+                    <li class="nav-item" (click)="toggleNavbar()" routerLinkActive="active">
+                        <a class="nav-link " routerLink="otherInfo" >OTHER INFO</a>
+                    </li>
+                    <li class="nav-item" (click)="toggleNavbar()" routerLinkActive="active"> 
+                        <a class="nav-link " routerLink="contactus" >CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>

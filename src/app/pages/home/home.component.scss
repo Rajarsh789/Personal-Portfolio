@@ -1,0 +1,105 @@
+// / trodl section 4
+  .pk_section_4 {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    // font-weight: 400;
+    .pink {
+        color: #cc99cd;
+      }
+    .yellow {
+      display: inline-block;
+      color: #f8c544;
+    }
+    .blue{
+        color: #67cdcc;
+    }
+    .sky{
+      color:#8edef8;
+    }
+
+    .sky-dark{
+      color:#3468a3;
+    }
+    .orange {
+        color: #f08139;
+    }
+    .light-gray {
+        color: #ccc;
+    }
+    .code_text {
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      line-height: 1.4;
+    }
+    .light-gray {
+      color: #cccccc;
+    }
+    .curl-code {
+        color: #7ec67d;
+    }
+
+    .node-text {
+      font-size: 18px;
+      font-family: "Roboto", sans-serif;
+      line-height: 1.4;
+      .pink {
+        color: #cc99cd;
+      }
+      .light-gray {
+        color: #ccc;
+      }
+      .orange {
+        color: #f08139;
+      }
+      .yellow {
+        display: inline-block;
+        color: #f8c544;
+      }
+    }
+
+
+
+    .card_mrgin {
+    //   margin-top: 80px;
+      // margin-bottom: 80px;
+      .card-header {
+        background-color: #2a2734;
+        color: #fff;
+        // border-radius: 10px;
+        border: none;
+      }
+      .tab-code-content {
+        display: flex;
+        overflow: auto;
+        width: 100%;
+        height: 500px;
+        // padding: 24px;
+        background-color: #2d2d2d;
+        color: #7ec67d;
+        // border-radius: 15px;
+      }
+      .nav-item {
+        font-size: 16px;
+        padding: 4px 10px;
+        margin: 0px 16px 0px 0px;
+        border-radius: 8px;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.4;
+      }
+
+      .selectedView {
+        color: #ebe7fe;
+        background-color: #48435a;
+      }
+
+      .unSelectedView {
+        font-size: 16px;
+        padding: 4px 10px;
+        margin: 0px 16px 0px 0px;
+        border-radius: 8px;
+        font-family: "Roboto", sans-serif;
+        line-height: 1.4;
+      }
+    }
+  }
